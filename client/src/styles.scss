@@ -28,7 +28,7 @@ body,
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-}
+  }
 
 .colors-wrap {
   height: 100%;
@@ -64,36 +64,80 @@ form {
   margin-top: 60px;
   display: flex;
   flex-direction: column;
-
+  border: #9a99dd 1px dashed; 
+  
   legend {
+  
     padding-left: 40px;
     font-weight: bold;
     text-align: left;
     text-decoration: underline;
     margin-bottom: 16px;
+  
+  
   }
 
   label {
+    
     display: flex;
     justify-content: space-between;
     padding: 4px 36px 4px 40px;
+  
   }
 
   input {
     width: 100px;
   }
+
 }
 
 .button-row {
+  
   display: flex;
   justify-content: space-between;
   padding: 0 36px 0 41px;
 
   button {
+    
     border: none;
-    background-color: black;
+    background-color: #9a99dd;
     color: white;
     padding: 3px 8px;
     margin-top: 16px;
+
   }
+
+}
+
+.appHeader {
+
+  margin: 0 auto;
+  background-color: #9a99dd;
+  width: 100%;
+  color: #9a2be2;
+  text-align: center;
+  height: 70px;
+
+}
+
+#addButton {
+
+  border: none;
+  background-color: #9a99dd;
+  color: white;
+  padding: 5px 10px;
+  margin-top: 20px;
+  width: 100px;
+  
+}
+
+#loginButton {
+
+  border: none;
+  background-color: #9a99dd;
+  color: white;
+  padding: 5px 10px;
+  margin-top: 20px;
+  width: 100px;
+
 }
