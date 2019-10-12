@@ -5,6 +5,7 @@ import { Svg, Circle } from "@potion/element";
 
 
 
+
 const Bubbles = ({ colors }) => {
   const [bubbleData, setBubbleData] = useState([]);
   useEffect(() => {

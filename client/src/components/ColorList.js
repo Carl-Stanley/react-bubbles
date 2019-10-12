@@ -128,6 +128,7 @@ const ColorList = ({ colors, updateColors }) => {
           </div>
         </form>
       )}
+      
       <form onSubmit={addColor}>
         <h4>Add a new color</h4>
         <label>
